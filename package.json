@@ -1,0 +1,24 @@
+{
+  "name": "time-formatter",
+  "version": "1.0.0",
+  "description": "a simple code to format decimal numbers with time extensions.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jefreesujit/time-formatter.git"
+  },
+  "keywords": [
+    "time",
+    "format",
+    "time-formatter"
+  ],
+  "author": "Jefreesujit",
+  "license": "FreeBSD",
+  "bugs": {
+    "url": "https://github.com/Jefreesujit/time-formatter/issues"
+  },
+  "homepage": "https://github.com/Jefreesujit/time-formatter#readme"
+}
