@@ -8,6 +8,11 @@ var validate = function (value, type) {
 	}
 }
 
+var formatDays = function(value, type) {
+	if(validate(value,type))
+		return value+" d ";
+};
+
 var formatTime = function() {};
 
 formatTime.prototype.minutes = function(value, type) {
@@ -40,15 +45,11 @@ formatTime.prototype.hours = function(value, type) {
 			return value+" hr ";
 		} else {
 			var hours = value%24,
-				days = formatTime.prototype.days(Math.floor(value/24), true);
+				days = formatDays(Math.floor(value/24), true);
 			return days+hours+" hr ";
 		}
 	}	
 };
 
-formatTime.prototype.days = function(value, type) {
-	if(validate(value,type))
-		return value+" day ";
-};
 
 module.exports = new formatTime();
