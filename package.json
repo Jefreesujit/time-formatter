@@ -1,7 +1,7 @@
 {
   "name": "time-formatter",
   "version": "1.0.0",
-  "description": "a simple code to format decimal numbers with time extensions.",
+  "description": "A simple code to format decimal numbers with time extensions.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,8 +15,8 @@
     "format",
     "time-formatter"
   ],
-  "author": "Jefreesujit",
-  "license": "FreeBSD",
+  "author": "Jefree Sujit <jefree.sujit@gmail.com>",
+  "license": "BSD-2-Clause",
   "bugs": {
     "url": "https://github.com/Jefreesujit/time-formatter/issues"
   },
